@@ -1,0 +1,139 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: serif;
+	margin: 0;
+}
+
+ul
+{
+	list-style-type: none;
+	padding-left: 0.5em;
+}
+
+ul li
+{
+	margin-bottom: 0.6em;
+}
+
+
+.header
+{
+	position: relative;
+	padding: 1em 8em;
+	background: rgb(0, 61, 77);
+	color: #f0f0f0;
+	height: 20em;
+	
+	border-bottom: 5px solid red;
+}
+
+.header h1
+{
+	font-size: 55px;
+	margin-bottom: 0;
+	color: rgb(0, 125, 159);
+	line-height: 1.2em;
+	font-family: 'arial black', sans-serif;
+}
+
+.header h2
+{
+	margin-top: 0;
+	color: rgb(224, 221, 221);
+	font-size: 23px;
+	font-family: arial, sans-serif;
+}
+
+.header .tab-container
+{
+	position: absolute;
+	left: 0; right: 0;
+	bottom: 0;
+	height: 40px;
+}
+
+.header .tabs
+{
+	height: 42px;
+	width: 920px;
+	margin: 0 auto;
+
+	cursor: default;
+}
+
+.header .tabs li
+{
+	display: inline-block;
+	height: 40px;
+	width: 300px;
+	border-left: 1px solid rgb(0, 0, 0);
+	color: rgb(66, 65, 65);
+	font-family: arial, sans-serif;
+	background: white;
+}
+
+.header .tabs li.selected,
+.header .tabs li:hover
+{
+	background: red;
+	color: white;
+}
+
+.header .tabs li *
+{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.header .tabs li:first-child
+{
+	border-top-left-radius: 10px;
+}
+
+
+.header .tabs li:last-child
+{
+	border-top-right-radius: 10px;
+	border-right: 1px solid rgb(0, 0, 0);
+}
+
+.body *
+{
+	color: rgb(90, 89, 89);
+}
+
+
+.body
+{
+	padding: 0 8em;
+}
+
+.body h1
+{
+	font-weight: bold;
+	font-size: 60px;
+	font-family: arial, sans-serif;
+}
+
+.body h1 + p
+{
+	font-weight: normal;
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	color: rgb(90, 89, 89);
+	
+	max-width: 35em;
+}
+
+
+.body h2
+{
+	font-size: 40px;
+	font-family: 'arial black';
+	color: rgb(0, 125, 159);
+}
