@@ -211,7 +211,7 @@ div.two-columns
 .panel-inclusion .licenses
 {
 	margin: 0;
-	padding: 10px 30px;
+	padding: 10px 10px 10px 20px;
 	color: rgb(32, 32, 32);
 	margin-top: 0.5em;
 	border-radius: 10px;
@@ -224,6 +224,7 @@ div.two-columns
 {
 	margin: 0;
 	padding-left: 0;
+	padding-bottom: .3em
 }
 
 
@@ -247,6 +248,17 @@ div.two-columns
 .panel-inclusion .license-list li > span
 {
     margin-left: 5px;
+}
+
+.panel-inclusion .inline-2c
+{
+	display: inline-block;
+	margin: .1em 0;
+	width: 9em;
+	height: 1.2em;
+	font-size: 11.5pt;
+	white-space: nowrap;
+	overflow-x: hidden;
 }
 
 
